@@ -1,6 +1,6 @@
 package com.parth.retrofitexample.service;
 
-import com.parth.retrofitexample.Info;
+import com.parth.retrofitexample.model.Info;
 
 import retrofit2.Call;
 import retrofit2.http.GET;

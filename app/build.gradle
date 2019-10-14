@@ -29,6 +29,15 @@ dependencies {
 
     //retrofit
     implementation 'com.squareup.retrofit2:retrofit:2.6.2'
-    //GSON
-    implementation 'com.google.code.gson:gson:2.8.6'
+    implementation 'com.squareup.retrofit2:converter-gson:2.6.2'
+
+    //recycle
+    def recyclerview_version = "1.0.0"
+    implementation "androidx.recyclerview:recyclerview:$recyclerview_version"
+    // For control over item selection of both touch and mouse driven selection
+    implementation "androidx.recyclerview:recyclerview-selection:$recyclerview_version"
+
+    //card view
+    def cardview_version = "1.0.0"
+    implementation "androidx.cardview:cardview:$cardview_version"
 }
