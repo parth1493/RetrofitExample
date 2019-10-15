@@ -49,9 +49,9 @@ public class MainActivity extends AppCompatActivity {
                 if(info != null && info.getResult() !=null){
                     results = (ArrayList<Result>) info.getResult();
 
-                    for(Result r:results){
-                        Log.i(TAG, "onResponse: "+ r.getName());
-                    }
+//                    for(Result r:results){
+//                        Log.i(TAG, "onResponse: "+ r.getName());
+//                    }
                     viewData();
                 }
             }
@@ -72,6 +72,6 @@ public class MainActivity extends AppCompatActivity {
         RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(MainActivity.this);
         recyclerView.setLayoutManager(layoutManager);
         recyclerView.setAdapter(countryAdapter);
-        
+
     }
 }
